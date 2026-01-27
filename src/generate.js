@@ -1,3 +1,4 @@
+// Þetta er comment test
 import fs from "node:fs/promises";
 import { parseLine } from "./lib/parse.js";
 import {
