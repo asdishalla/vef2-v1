@@ -21,6 +21,19 @@ export function parseQuestions() {
 6 	Nei 	Svarið
 */
 
+export const CATEGORIES = {
+  1: 	"Almenn kunnátta",
+  2:  	"Náttúra og vísindi",
+  3: 	"Bókmenntir og listir",
+    4: "Saga",
+    5: 	"Landafræði",
+    6: 	"Skemmtun og afþreying",
+    7: 	"Íþróttir og tómstundir",
+}
+
+
+
+
 /**
  * 
  * @param {string} line 
@@ -33,7 +46,6 @@ export function parseLine(line) {
     return null
   }
 
-  // TODO mappa categoryNumber yfir í streng skv skjölun
   
   const categoryNumber = split[0];
   const subCategory = split[1];

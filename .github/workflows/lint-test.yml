@@ -26,3 +26,7 @@ jobs:
         # Run this even if linting failed
         if: always()
         run: npm test
+
+        - name: Coverage
+        if: always()
+        run: npm run test:coverage
