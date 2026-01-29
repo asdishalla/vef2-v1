@@ -9,6 +9,6 @@
 - [x] JS á client
 - [x] búa til basic index.html
 
-- [ ] CSS virkni
-- [ ] HTML virkni
+- [x] CSS virkni
+- [x] HTML virkni
 
